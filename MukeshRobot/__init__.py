@@ -59,10 +59,10 @@ if ENV:
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
-        SUDO_USER = int(os.environ.get("SUDO_USER", None))
-        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+        OWNER_ID = int(os.environ.get("OWNER_ID", "6144093089"))
+        SUDO_USER = int(os.environ.get("SUDO_USER", "6144093089"))
+        HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "fubukii")
+        HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "HRKU-2500da6d-35b0-4790-8de3-9dc0f0fa72b2")
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 

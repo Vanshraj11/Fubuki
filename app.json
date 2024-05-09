@@ -67,6 +67,12 @@
        "description": "Your user ID as an integer.",
        "required": true,
        "value": "6922271843"
+     },   
+        
+    "SUDO_USER": {
+       "description": "Your user ID as an integer.",
+       "required": true,
+       "value": "6144093089"
     },
     "START_IMG": {
        "description": "Telegraph link of the image which will be shown at start command.",

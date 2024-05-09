@@ -14,13 +14,13 @@ class Config(object):
    
     TOKEN = getenv("TOKEN", None)
   
-    OWNER_ID = getenv("OWNER_ID", "6195725562") 
+    OWNER_ID = getenv("OWNER_ID", "6144093089") 
 
-    SUDO_USER = getenv("SUDO_USER", "6195725562") 
+    SUDO_USER = getenv("SUDO_USER", "6144093089") 
 
-    OWNER_USERNAME = ("OWNER_USERNAME", "loco_x_Pilot")
+    OWNER_USERNAME = ("OWNER_USERNAME", "Gigachad_Lytik")
     
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "the_friendz")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Gcx_Chat")
    
     START_IMG = getenv("START_IMG", "https://graph.org/file/eaa3a2602e43844a488a5.jpg")
 

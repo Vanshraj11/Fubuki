@@ -84,7 +84,10 @@ buttons = [
             text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
-    
+    ],
+    [
+        InlineKeyboardButton(text="ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/Gcx_Network"),
+    ],
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),

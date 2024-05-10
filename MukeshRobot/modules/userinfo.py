@@ -285,7 +285,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n❍ [<a href="https://t.me/RoY_Editx/881">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
+        text += ' \n❍ [<a href="https://t.me/Gcx_Network">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
             bot.username
         )
 
@@ -323,10 +323,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/RoY_Editx/882"
+                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/Gcx_Network/882"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/RoY_Editx/881"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/Gcx_Network/881"
                             ),
                         ],
                         [
@@ -349,10 +349,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/RoY_Editx/882"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Gcx_Network"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/RoY_Editx/881"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/Gcx_Network"
                             ),
                         ],
                         [
